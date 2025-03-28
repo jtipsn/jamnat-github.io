@@ -19,10 +19,10 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 
 ### 2.1 Create a Directory for Your Project
 1. Find and Open the App `Git bash` in the windows search bar
-2. Navigate to where you want to create your project folder using the `cd` command:
-cd <path-to-your-folder> git bash by default goes to the user profile.  
+2. Navigate to where you want to create your project folder using the
+3. `cd` command: cd <path-to-your-folder> git bash by default goes to the user profile.  
 
-3. Create a new directory for your project:
+4. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
 
 ### 2.2 Clone the Repository from GitHub
@@ -30,10 +30,8 @@ Now, you'll clone the GitHub repository to your local machine:
 1. Go to https://github.com/jtipsn/git-session.git
 2. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
 
-4. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
-`git clone  https://github.com/jtipsn/git-session.git` to download to repo to your local environment 
-`cd git-session` to go to the working directory 
-
+3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
+`git clone  https://github.com/jtipsn/git-session.git` to download to repo to your local environment and `cd git-session` to go to the working directory
  
 ---
 
@@ -41,7 +39,7 @@ Now, you'll clone the GitHub repository to your local machine:
 
 ### 3.1 Create a New File
 1. Create a new file in the repository. For example, you can create a `<student_name>_first_commit.txt` file:
-echo "Hello, Git!" > hello.txt
+echo "Hello, Git!" > <student_name>_first_commit.txt
 
  
 
@@ -80,8 +78,7 @@ git commit -m "Add <student_name>_first_commit.txt with a greeting message"
 Push your local commits to the GitHub repository:
 git push origin main
 
-yaml
-Copy
+
 - `origin` refers to your GitHub repository.
 - `main` is the default branch name (if your repository uses `master` instead of `main`, use `master`).
 
