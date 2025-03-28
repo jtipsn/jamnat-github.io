@@ -7,11 +7,11 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 ## Step 1: Set Up Your Environment
 
 ### 1.1 Create a GitHub Account
-- Visit [GitHub.com](https://github.com) and sign up for a free account if you don't have one already.
+- Visit [GitHub.com](https://github.com) - use your UoA email to sign up if you haven't already.  When signing up skip all the set up for now.   
 
 ### 1.2 Install Git on Your Computer
 - Go to [Git's download page](https://git-scm.com/downloads) and download the appropriate version for your operating system.
-- Follow the installation instructions. Make sure to choose the default options unless you have a reason to change them.
+- Follow the installation instructions.  Choose the default options on everything and install
 
 ---
 
@@ -32,10 +32,12 @@ Copy
 
 ### 2.2 Clone the Repository from GitHub
 Now, you'll clone the GitHub repository to your local machine:
-1. Go to your GitHub account and find the repository you want to clone.
-2. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL).
-3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
-git clone <repo-url> cd <repository-name>
+1. Go to your browser where your github is logged in go to https://github.com/jtipsn/git-session.git
+2. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
+
+4. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
+`git clone  https://github.com/jtipsn/git-session.git` to download to repo to your local environment 
+`cd git-session` to go to the working directory 
 
 yaml
 Copy
