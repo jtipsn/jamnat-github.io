@@ -25,14 +25,15 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 ### 2.1 Create a Directory for Your Project
 1. Open **Git Bash** (or your terminal) on your computer.
 2. Navigate to where you want to create your project folder using the `cd` command:
-   ```bash
-   cd <path-to-your-folder>
+ 
+   <pre><code> cd <path-to-your-folder></code></pre>
 
 4. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
 
 ### 2.2 Create a new repository in Github
 <img width="328" alt="image" src="https://github.com/user-attachments/assets/43ee4436-0591-4769-afee-7e325c561ae4" />
+
 In the Github webpage click new and create a name for your repository and add a README and create:
 This will take you your repository page.
 
@@ -40,7 +41,8 @@ Now, you'll clone the GitHub repository to your local machine:
 1. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL under `HTTPS`).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
 
 3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
-`git clone <repo-url>` to download to repo to your local environment and `cd <repo_name>` to go to the working directory
+<code><pre>git clone <repo-url></code></pre>
+which will create a folder with the repo name. Then run `cd <repo_name>` to go to the working directory
  
 ---
 
@@ -48,8 +50,8 @@ Now, you'll clone the GitHub repository to your local machine:
 
 ### 3.1 Create a New File
 1. Create a new file inside your repository directory. For example, to create a file named `<student_name>_first_commit.txt`, run:
-   ```bash
-   echo "Hello, Git!" > <student_name>_first_commit.txt
+ 
+   <code><pre>echo "Hello, Git!" > <student_name>_first_commit.txt</code></pre>
 Alternatively, you can create and edit the file using any text editor, and save it in the project directory. The key is that the file should be added to the Git repository folder.
 
 Once the file is created, you can run the ls or dir command to list the files in your current directory and verify that the new file has been added:
