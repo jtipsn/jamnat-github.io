@@ -16,7 +16,7 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 - Open your terminal or Git Bash and run the following commands to configure Git with your email and GitHub username:
   ```bash
   git config --global user.email "<email>"
-  git config --global user.name "<username>"
+  git config --global user.name "<username>"```
 
 
 ---
