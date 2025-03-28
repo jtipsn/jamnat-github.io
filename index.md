@@ -25,13 +25,17 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 4. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
 
-### 2.2 Clone the Repository from GitHub
+### 2.2 Create a new repository in Github
+In the Github webpage click new 
+<img width="328" alt="image" src="https://github.com/user-attachments/assets/43ee4436-0591-4769-afee-7e325c561ae4" />
+Create a name for your repository and add a README and create:
+This will take you your repository page.
+
 Now, you'll clone the GitHub repository to your local machine:
-1. Go to https://github.com/jtipsn/git-session.git
-2. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
+1. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL under `HTTPS`).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
 
 3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
-`git clone  https://github.com/jtipsn/git-session.git` to download to repo to your local environment and `cd git-session` to go to the working directory
+`git clone <repo-url>` to download to repo to your local environment and `cd <repo_name>` to go to the working directory
  
 ---
 
