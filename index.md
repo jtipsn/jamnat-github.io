@@ -64,9 +64,10 @@ Once the file is created, you can run the ls or dir command to list the files in
 ### 4.1 Add Files to the Staging Area
 To track the changes you've made, use the `git add` command:
 - Add the specific file:
-git add <student_name>_first_commit.txt.  You could also use `git add .` to add all changed files
+<code><pre>git add <student_name>_first_commit.txt</code></pre>
+You could also use `git add .` to add all changed files
 
-Then run `git status` in the terminal to see what has been modified or added
+Then run <code><pre>git status</code></pre> in the terminal to see what has been modified or added
 
 ---
 
@@ -74,7 +75,7 @@ Then run `git status` in the terminal to see what has been modified or added
 
 ### 5.1 Commit with a Message
 Now, commit your changes to the local repository:
-git commit -m "Add <student_name>_first_commit.txt with a greeting message"
+<code><pre>git commit -m "Add <student_name>_first_commit.txt with a greeting message"</code></pre>
 
 - The message inside the quotes (`"Add <student_name>_first_commit.txt with a greeting message"`) should describe what you've changed.
 
@@ -84,7 +85,7 @@ git commit -m "Add <student_name>_first_commit.txt with a greeting message"
 
 ### 6.1 Push to GitHub
 Push your local commits to the GitHub repository:
-git push origin main
+<code><pre>git push origin main</code></pre>
 When pushing, a broswer prompt will pop up asking for a login.  Once you authenticate, the commit will be get pushed to the github repo
 
 - `origin` refers to your GitHub repository.
