@@ -7,20 +7,27 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 ## Step 1: Set Up Your Environment
 
 ### 1.1 Create a GitHub Account
-- Visit [GitHub.com](https://github.com) - use your UoA email to sign up if you haven't already.  When signing up skip all the set up for now.   
+- Visit [GitHub.com](https://github.com) and sign up using your UoA email if you haven't already.
+- Skip the setup steps for now—just create your account.
 
 ### 1.2 Install Git on Your Computer
-- Go to [Git's download page](https://git-scm.com/downloads) and download the version for your operating system under "standalone installer".
-- Follow the installation instructions.  Choose the default options on everything!
+- Go to [Git's download page](https://git-scm.com/downloads) and download the installer for your operating system.
+- Follow the installation instructions, and select the default options during setup.
+- Open your terminal or Git Bash and run the following commands to configure Git with your email and GitHub username:
+  ```bash
+  git config --global user.email "<email>"
+  git config --global user.name "<username>"
+
 
 ---
 
 ## Step 2: Clone the Repository
 
 ### 2.1 Create a Directory for Your Project
-1. Find and Open the App `Git bash` in the windows search bar
-2. Navigate to where you want to create your project folder using the
-3. `cd` command: cd <path-to-your-folder> git bash by default goes to the user profile.  
+1. Open **Git Bash** (or your terminal) on your computer.
+2. Navigate to where you want to create your project folder using the `cd` command:
+   ```bash
+   cd <path-to-your-folder>
 
 4. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
@@ -75,7 +82,7 @@ git commit -m "Add <student_name>_first_commit.txt with a greeting message"
 ### 6.1 Push to GitHub
 Push your local commits to the GitHub repository:
 git push origin main
-
+When pushing a broswer prompt will pop up asking for a login.  Once you authenticate, the commit will be get pushed to the github repo
 
 - `origin` refers to your GitHub repository.
 - `main` is the default branch name (if your repository uses `master` instead of `main`, use `master`).
