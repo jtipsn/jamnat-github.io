@@ -38,14 +38,10 @@ Now, you'll clone the GitHub repository to your local machine:
 ## Step 3: Make Changes to Your Files
 
 ### 3.1 Create a New File
-1. Create a new file in the repository. For example, you can create a `<student_name>_first_commit.txt` file:
+1. Create a new file in the repository. You can go to the directory where the file is stored or you can create a `<student_name>_first_commit.txt` file by inserting the following into the terminal
 echo "Hello, Git!" > <student_name>_first_commit.txt
 
- 
 
-### 3.2 Check the Status of Your Repository
-Before committing your changes, check the status of your repository to see which files have been modified or added:
-git status
 
 ---
 
@@ -54,11 +50,9 @@ git status
 ### 4.1 Add Files to the Staging Area
 To track the changes you've made, use the `git add` command:
 - Add the specific file:
-git add <student_name>_first_commit.txt
+git add <student_name>_first_commit.txt.  You could also use `git add .` to add all changed files
 
-- Or add all modified/created files:
-git add .
- 
+Then run `git status` in the terminal to see what has been modified or added
 
 ---
 
