@@ -1,123 +1,130 @@
+# Git and GitHub Activity: Pushing Your First Change
+
+Welcome to the Git and GitHub hands-on activity! Follow the steps below to push your first change to a GitHub repository.
+
 ---
-layout: default
+
+## Step 1: Set Up Your Environment
+
+### 1.1 Create a GitHub Account
+- Visit [GitHub.com](https://github.com) and sign up for a free account if you don't have one already.
+
+### 1.2 Install Git on Your Computer
+- Go to [Git's download page](https://git-scm.com/downloads) and download the appropriate version for your operating system.
+- Follow the installation instructions. Make sure to choose the default options unless you have a reason to change them.
+
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Step 2: Clone the Repository
 
-[Link to another page](./another-page.html).
+### 2.1 Create a Directory for Your Project
+1. Open the terminal (command line) on your computer.
+2. Navigate to where you want to create your project folder using the `cd` command:
+cd <path-to-your-folder>
 
-There should be whitespace between paragraphs.
+sql
+Copy
+3. Create a new directory for your project:
+mkdir my-first-repo cd my-first-repo
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+vbnet
+Copy
 
-# Header 1
+### 2.2 Clone the Repository from GitHub
+Now, you'll clone the GitHub repository to your local machine:
+1. Go to your GitHub account and find the repository you want to clone.
+2. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL).
+3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
+git clone <repo-url> cd <repository-name>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+yaml
+Copy
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Step 3: Make Changes to Your Files
 
-### Header 3
+### 3.1 Create a New File
+1. Create a new file in the repository. For example, you can create a `hello.txt` file:
+echo "Hello, Git!" > hello.txt
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+bash
+Copy
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### 3.2 Check the Status of Your Repository
+Before committing your changes, check the status of your repository to see which files have been modified or added:
+git status
 
-#### Header 4
+yaml
+Copy
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+---
 
-##### Header 5
+## Step 4: Add Your Changes
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### 4.1 Add Files to the Staging Area
+To track the changes you've made, use the `git add` command:
+- Add the specific file:
+git add hello.txt
 
-###### Header 6
+sql
+Copy
+- Or add all modified/created files:
+git add .
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+yaml
+Copy
 
-### There's a horizontal rule below this.
+---
 
-* * *
+## Step 5: Commit Your Changes
 
-### Here is an unordered list:
+### 5.1 Commit with a Message
+Now, commit your changes to the local repository:
+git commit -m "Add hello.txt with a greeting message"
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+yaml
+Copy
+- The message inside the quotes (`"Add hello.txt with a greeting message"`) should describe what you've changed.
 
-### And an ordered list:
+---
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+## Step 6: Push Your Changes to GitHub
 
-### And a nested list:
+### 6.1 Push to GitHub
+Push your local commits to the GitHub repository:
+git push origin main
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+yaml
+Copy
+- `origin` refers to your GitHub repository.
+- `main` is the default branch name (if your repository uses `master` instead of `main`, use `master`).
 
-### Small image
+---
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+## Step 7: Verify the Changes on GitHub
 
-### Large image
+1. Go to your GitHub repository in your web browser.
+2. You should see the `hello.txt` file in your repository with the changes you just made.
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+---
 
+### Congratulations! 🎉
+You’ve successfully pushed your first change to GitHub!
 
-### Definition lists can be used with HTML syntax.
+Keep experimenting with Git by making more changes, creating branches, and collaborating with others!
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+---
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+## Helpful Git Commands
 
-```
-The final element.
-```
+Here’s a list of some common Git commands:
+
+- `git status` – Check the status of your repository (see changes).
+- `git add .` – Stage all changes.
+- `git commit -m "message"` – Commit your changes with a message.
+- `git push origin main` – Push changes to the remote repository (GitHub).
+- `git pull origin main` – Pull the latest changes from the remote repository.
+- `git clone <repo-url>` – Clone a repository from GitHub to your local machine.
+
+If you need help, feel free to ask questions!
