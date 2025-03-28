@@ -14,9 +14,8 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 - Go to [Git's download page](https://git-scm.com/downloads) and download the installer for your operating system.
 - Follow the installation instructions, and select the default options during setup.
 - Open your terminal or Git Bash and run the following commands to configure Git with your email and GitHub username:
-  ```bash
-  git config --global user.email "<email>"
-  git config --global user.name "<username>"```
+<pre><code>git config --global user.email "&lt;email&gt;"</code></pre>
+<pre><code>git config --global user.name "&lt;username&gt;"</code></pre>
 
 
 ---
