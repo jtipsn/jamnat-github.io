@@ -10,7 +10,7 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 - Visit [GitHub.com](https://github.com) - use your UoA email to sign up if you haven't already.  When signing up skip all the set up for now.   
 
 ### 1.2 Install Git on Your Computer
-- Go to [Git's download page](https://git-scm.com/downloads) and download the version for your operating system: Windows or Mac.
+- Go to [Git's download page](https://git-scm.com/downloads) and download the version for your operating system under "standalone installer".
 - Follow the installation instructions.  Choose the default options on everything!
 
 ---
