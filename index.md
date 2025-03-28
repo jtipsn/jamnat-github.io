@@ -26,7 +26,7 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 1. Open **Git Bash** (or your terminal) on your computer.
 2. Navigate to where you want to create your project folder using the `cd` command:
  
-   <pre><code> cd <path-to-your-folder></code></pre>
+ <pre><code>cd &lt;path-to-your-folder&gt;</code></pre>
 
 4. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
@@ -41,7 +41,7 @@ Now, you'll clone the GitHub repository to your local machine:
 1. Copy the **URL** of the repository (Click on the green "Code" button and then copy the URL under `HTTPS`).<img width="688" alt="image" src="https://github.com/user-attachments/assets/a03c1110-a642-4fdb-a58e-e75a027a4161" />
 
 3. In your terminal, run the following command, replacing `<repo-url>` with the copied URL:
-<code><pre>git clone <repo-url></code></pre>
+<pre><code>git clone &lt;repo-url&gt;</code></pre>
 which will create a folder with the repo name. Then run `cd <repo_name>` to go to the working directory
  
 ---
@@ -51,7 +51,7 @@ which will create a folder with the repo name. Then run `cd <repo_name>` to go t
 ### 3.1 Create a New File
 1. Create a new file inside your repository directory. For example, to create a file named `<student_name>_first_commit.txt`, run:
  
-   <pre><code>echo "Hello, Git!" > <student_name>_first_commit.txt</code></pre>
+   <pre><code>echo "Hello, Git!" &gt; &lt;student_name&gt;_first_commit.txt</code></pre>
 Alternatively, you can create and edit the file using any text editor, and save it in the project directory. The key is that the file should be added to the Git repository folder.
 
 Once the file is created, you can run the ls or dir command to list the files in your current directory and verify that the new file has been added:
@@ -64,7 +64,7 @@ Once the file is created, you can run the ls or dir command to list the files in
 ### 4.1 Add Files to the Staging Area
 To track the changes you've made, use the `git add` command:
 - Add the specific file:
-<pre><code>git add <student_name>_first_commit.txt</code></pre>
+<pre><code>git add &lt;student_name&gt;_first_commit.txt</code></pre>
 You could also use `git add .` to add all changed files
 
 Then run <pre><code>git status</code></pre> in the terminal to see what has been modified or added
@@ -75,7 +75,8 @@ Then run <pre><code>git status</code></pre> in the terminal to see what has been
 
 ### 5.1 Commit with a Message
 Now, commit your changes to the local repository:
-<pre><code>git commit -m "Add <student_name>_first_commit.txt with a greeting message"</code></pre>
+<pre><code>git commit -m "Add &lt;student_name&gt;_first_commit.txt with a greeting message"</code></pre>
+
 
 - The message inside the quotes (`"Add <student_name>_first_commit.txt with a greeting message"`) should describe what you've changed.
 
