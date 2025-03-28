@@ -1,6 +1,6 @@
 # Git and GitHub Activity: Pushing Your First Change
 
-Welcome to the Git and GitHub hands-on activity! Follow the steps below to push your first change to a GitHub repository.
+Follow these steps to psuh your first change to github!
 
 ---
 
