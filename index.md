@@ -10,25 +10,20 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 - Visit [GitHub.com](https://github.com) - use your UoA email to sign up if you haven't already.  When signing up skip all the set up for now.   
 
 ### 1.2 Install Git on Your Computer
-- Go to [Git's download page](https://git-scm.com/downloads) and download the appropriate version for your operating system.
-- Follow the installation instructions.  Choose the default options on everything and install
+- Go to [Git's download page](https://git-scm.com/downloads) and download the version for your operating system.
+- Follow the installation instructions.  Choose the default options on everything!
 
 ---
 
 ## Step 2: Clone the Repository
 
 ### 2.1 Create a Directory for Your Project
-1. Open the terminal (command line) on your computer.
+1. Find and Open the App `Git bash` in the windows search bar
 2. Navigate to where you want to create your project folder using the `cd` command:
-cd <path-to-your-folder>
+cd <path-to-your-folder> git bash by default goes to the user profile.  
 
-sql
-Copy
 3. Create a new directory for your project:
 mkdir my-first-repo cd my-first-repo
-
-vbnet
-Copy
 
 ### 2.2 Clone the Repository from GitHub
 Now, you'll clone the GitHub repository to your local machine:
