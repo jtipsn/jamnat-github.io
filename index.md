@@ -28,9 +28,6 @@ Follow these steps to psuh your first change to github!
  
  <pre><code>cd &lt;path-to-your-folder&gt;</code></pre>
 
-4. Create a new directory for your project:
-mkdir my-first-repo cd my-first-repo
-
 ### 2.2 Create a new repository in Github
 <img width="328" alt="image" src="https://github.com/user-attachments/assets/43ee4436-0591-4769-afee-7e325c561ae4" />
 
