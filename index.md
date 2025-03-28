@@ -33,9 +33,8 @@ Welcome to the Git and GitHub hands-on activity! Follow the steps below to push 
 mkdir my-first-repo cd my-first-repo
 
 ### 2.2 Create a new repository in Github
-In the Github webpage click new 
 <img width="328" alt="image" src="https://github.com/user-attachments/assets/43ee4436-0591-4769-afee-7e325c561ae4" />
-Create a name for your repository and add a README and create:
+In the Github webpage click new and create a name for your repository and add a README and create:
 This will take you your repository page.
 
 Now, you'll clone the GitHub repository to your local machine:
@@ -49,9 +48,12 @@ Now, you'll clone the GitHub repository to your local machine:
 ## Step 3: Make Changes to Your Files
 
 ### 3.1 Create a New File
-1. Create a new file in the repository. You can go to the directory where the file is stored or you can create a `<student_name>_first_commit.txt` file by inserting the following into the terminal
-echo "Hello, Git!" > <student_name>_first_commit.txt
+1. Create a new file inside your repository directory. For example, to create a file named `<student_name>_first_commit.txt`, run:
+   ```bash
+   echo "Hello, Git!" > <student_name>_first_commit.txt
+Alternatively, you can create and edit the file using any text editor, and save it in the project directory. The key is that the file should be added to the Git repository folder.
 
+Once the file is created, you can run the ls or dir command to list the files in your current directory and verify that the new file has been added:
 
 
 ---
@@ -82,7 +84,7 @@ git commit -m "Add <student_name>_first_commit.txt with a greeting message"
 ### 6.1 Push to GitHub
 Push your local commits to the GitHub repository:
 git push origin main
-When pushing a broswer prompt will pop up asking for a login.  Once you authenticate, the commit will be get pushed to the github repo
+When pushing, a broswer prompt will pop up asking for a login.  Once you authenticate, the commit will be get pushed to the github repo
 
 - `origin` refers to your GitHub repository.
 - `main` is the default branch name (if your repository uses `master` instead of `main`, use `master`).
