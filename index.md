@@ -51,7 +51,7 @@ which will create a folder with the repo name. Then run `cd <repo_name>` to go t
 ### 3.1 Create a New File
 1. Create a new file inside your repository directory. For example, to create a file named `<student_name>_first_commit.txt`, run:
  
-   <code><pre>echo "Hello, Git!" > <student_name>_first_commit.txt</code></pre>
+   <pre><code>echo "Hello, Git!" > <student_name>_first_commit.txt</code></pre>
 Alternatively, you can create and edit the file using any text editor, and save it in the project directory. The key is that the file should be added to the Git repository folder.
 
 Once the file is created, you can run the ls or dir command to list the files in your current directory and verify that the new file has been added:
@@ -64,10 +64,10 @@ Once the file is created, you can run the ls or dir command to list the files in
 ### 4.1 Add Files to the Staging Area
 To track the changes you've made, use the `git add` command:
 - Add the specific file:
-<code><pre>git add <student_name>_first_commit.txt</code></pre>
+<pre><code>git add <student_name>_first_commit.txt</code></pre>
 You could also use `git add .` to add all changed files
 
-Then run <code><pre>git status</code></pre> in the terminal to see what has been modified or added
+Then run <pre><code>git status</code></pre> in the terminal to see what has been modified or added
 
 ---
 
@@ -75,7 +75,7 @@ Then run <code><pre>git status</code></pre> in the terminal to see what has been
 
 ### 5.1 Commit with a Message
 Now, commit your changes to the local repository:
-<code><pre>git commit -m "Add <student_name>_first_commit.txt with a greeting message"</code></pre>
+<pre><code>git commit -m "Add <student_name>_first_commit.txt with a greeting message"</code></pre>
 
 - The message inside the quotes (`"Add <student_name>_first_commit.txt with a greeting message"`) should describe what you've changed.
 
@@ -85,7 +85,7 @@ Now, commit your changes to the local repository:
 
 ### 6.1 Push to GitHub
 Push your local commits to the GitHub repository:
-<code><pre>git push origin main</code></pre>
+<pre><code>git push origin main</code></pre>
 When pushing, a broswer prompt will pop up asking for a login.  Once you authenticate, the commit will be get pushed to the github repo
 
 - `origin` refers to your GitHub repository.
